@@ -1,0 +1,73 @@
+body {
+    background-image: url(imagenes/com.jpg);   
+    background-position:center center ;
+    
+    background-repeat:no-repead;
+    
+    background-size: cover;
+    
+    background-attachment: fixed; 
+  }
+  
+  .contenedor-padre {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    
+  }
+  
+  .seccion-naturaleza {
+    background-color: rgba(26, 37, 29, 0.7);
+    border: 2px solid #213322;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .seccion-naturaleza img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  h1 {
+    color: #30dd3b;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #36c93e;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #50db57;
+  }
+  .img{
+    justify-content: center;
+    display: flex;
+
+  }
+  .img>img{
+    margin: 1%;
+    max-width: 25%;
+  }
+  p{
+    color: aliceblue;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        background-image: url(imagenes/cel.jpg);
+        background-position:center center ;
+
+background-repeat:no-repead;
+
+background-size: cover;
+
+background-attachment: fixed;
+    }
+}

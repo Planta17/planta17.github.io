@@ -1,0 +1,47 @@
+body{
+
+    background-image: url(imagenes/2.jpg);   
+    background-position:center center ;
+    
+    background-repeat:no-repead;
+    
+    background-size: cover;
+    
+    background-attachment: fixed; 
+    
+    }
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: pulsar 2s ease-in-out infinite;
+    transition: background-color 0.3s ease;
+    max-width: 90vw;
+    width: 300px;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  @keyframes pulsar {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
